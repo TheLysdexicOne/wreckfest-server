@@ -1,21 +1,21 @@
 import random
 from random import randint
 
-with open('E:/SteamLibrary/steamapps/common/Wreckfest Dedicated Server/eventloops/racing_maps.txt') as f:
+with open('./racing_maps.txt') as f:
     racing_maps = f.read().splitlines()
 
-with open('E:/SteamLibrary/steamapps/common/Wreckfest Dedicated Server/eventloops/arena_maps.txt') as f:
+with open('./arena_maps.txt') as f:
     arena_maps = f.read().splitlines()
 
-with open('E:/SteamLibrary/steamapps/common/Wreckfest Dedicated Server/eventloops/figure_8_maps.txt') as f:
+with open('./figure_8_maps.txt') as f:
     figure_8_maps = f.read().splitlines()
 
 
 class_restrictions = ['a','b','c','a','b','c','special']
 figure_8_class_restrictions = ['a','b','c','special']
 arena_restrictions = ['school bus','lawn mower','bumper car','honey pot']
-figure_8_restrictions = ['school bus','school bus','school bus','school bus','motor home','sofa car']
-racing_restrictions = ['school bus','school bus','school bus','school bus','school bus','school bus','school bus','school bus','motor home','sofa car','bugzilla']
+figure_8_restrictions = ['school bus','school bus','school bus','school bus','motor home','sofa car','big rig']
+racing_restrictions = ['school bus','school bus','school bus','school bus','school bus','school bus','school bus','school bus','motor home','sofa car','bugzilla','big rig']
 laps = ['5', '6', '7']
 
 x = 0
