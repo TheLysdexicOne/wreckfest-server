@@ -95,36 +95,66 @@ This will output the results to a text file and overwrite it every time you run 
 
 Start server and you should be good to go.
 
+###########################################
+### DEALING WITH BUGGY WRECKFEST SERVER ###
+###########################################
 
+Things to note about server:
+
+• Sometimes when changing maps with special restrictions, the server doesn't actually change map.  Things to do:
+	• Look at the server window and find the track that was supposed to load.  type "track <trackname>" and the map will change
+	• Deal with it.  It's just more frustrating than an actual break in the server.
+• Bots don't change chars when restrictions change
+	• Once server loads with new configurations, just do the following codes in the server window...
+		• bots 0
+		• bots 24
+	• This will get rid off all bots, then repopulate them with the correct restrictions.
+	• If you change car_restriction through the server window, sometimes the bots will just get kicked and always have an invalid car. This usually applies when trying to set to restrict to a certain car in the pre-game lobby.
+		• Use the following command in the server window: (this clear the car restrictions
+			• car_restriction
+			• car_class_restriction
+		• From here, just use the in-game settings.  Under Server Options, set car restriction to "Host's Car".  This should fix the bots..should..should....this is one of the most buggy things about this.
+
+Other than that, I haven't found too many issues.  Just having to reload the map occasionally and fix the bots.  If you plan to race with bots every race, I highly suggest refreshing them after every race for variety.  Just as soon as you're past the voiting screen, do the two "bots" commands.
+
+Something to note, the command "/eventloop" will toggle the eventloop you have placed, so if you want to go back to manual configuration, just type "/eventloop" either in the lobby text box or in the server window.  This will give admin full control.
+
+
+###############################
+### LIST OF SERVER COMMANDS ###
+###############################
+
+Commands:
+    list - print player list
+    bans - print ban list
+    admins - print list of user privileges
+    clearusers - clear user privileges
+    tracks - list tracks
+    gamemodes - list game modes
+    cars - list cars
+    weathers - list weathers
+    exit - close application
+    ? - list server and event modifiers
+Chat commands:
+    /message [new message] - send a message to the chat
+    /kick [id] - kick a player
+    /ban [id] - ban a player
+    /bansteamid [steam id] - ban a steam id
+    /unban [ban index] - lift a ban, use "bans" for ban indices
+    /unbansteamid [steam id] - lift a ban by steam id
+    /clearbans - clear all bans
+    /balanceteams - balance teams
+    /restart - server restart
+    /bot - add a bot
+    /op [id] - add moderator privileges
+    /opsteamid [steam id] - add moderator privileges by steam id
+    /admin [id] - add admin privileges
+    /adminsteamid [steam id] - add admin privileges by steam id
+    /demote [id] - clear admin and moderator privileges
+    /demotesteamid [steam id] - clear admin and moderator privileges by steam id
+    /password [new password] - set password
+    /servername [new server name] - set name of the server
+    /welcome [new welcome message] - set the welcome message
+    /eventloop - toggle automatic event rotation if configured
 
 ###NOTE: I'll probably update this a couple times, so keep an eye out for any changes.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
