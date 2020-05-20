@@ -14,8 +14,8 @@ with open('E:/SteamLibrary/steamapps/common/Wreckfest Dedicated Server/eventloop
 class_restrictions = ['a','b','c','a','b','c','special']
 figure_8_class_restrictions = ['a','b','c','special']
 arena_restrictions = ['school bus','lawn mower','bumper car','honey pot']
-figure_8_restrictions = ['school bus','school bus','school bus','school bus','motor home','sofa car','big rig']
-racing_restrictions = ['school bus','school bus','school bus','school bus','school bus','school bus','school bus','school bus','motor home','sofa car','bugzilla','big rig']
+figure_8_restrictions = ['school bus','school bus','school bus','school bus','motor home','sofa car']
+racing_restrictions = ['school bus','school bus','school bus','school bus','school bus','school bus','school bus','school bus','motor home','sofa car','bugzilla']
 laps = ['5', '6', '7']
 
 x = 0
