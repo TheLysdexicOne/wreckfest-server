@@ -1,2 +1,0 @@
-# wreckfest-server
-Wreckfest Server
