@@ -76,3 +76,55 @@ From here, your server is functional.  There is no eventloop set, but you can ch
 
 Everything you need to get started is in the eventloops folder.  Map types are separated by different text files.  Each line in the text files is a different map and must keep that format, otherwise the script will break.
 
+First step would be to install python.
+• https://www.python.org/downloads/windows/
+• Windows x86-64 executable installer (if you have 64-bit windows)
+• Windows x86 executable installer (if you have 32-bit windows)
+
+Running the python script:
+
+• Download the files from github and remember where you put them.
+• Open cmd.exe on Windows
+• cd <path-to-script>
+• .\eventloop_creator.py
+
+Alternatively,
+• .\eventloop_creator.py > output.txt
+
+This will output the results to a text file and overwrite it every time you run it.  ">>" will append it to the end of the output.txt file.  From there, copy the output and append it to the bottom "server_config.cfg" under the Event Loop section.
+
+Start server and you should be good to go.
+
+
+
+###NOTE: I'll probably update this a couple times, so keep an eye out for any changes.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
