@@ -1,0 +1,7 @@
+speedway2_classic_arena
+speedway2_demolition_arena
+smallstadium_demolition_arena
+mudpit_demolition_arena
+grass_arena_demolition_arena
+field_derby_arena
+bigstadium_demolition_arena

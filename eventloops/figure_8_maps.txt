@@ -1,0 +1,4 @@
+speedway2_figure_8
+dirt_speedway_figure_8
+speedway1_figure_8
+bigstadium_figure_8
