@@ -10,10 +10,9 @@ Method 2:
 • Download steamcmd - put in it's own directory (simple google search will get you the cmd)
 • Open it and let it do it's initial indtallation
 • Use the following commands:
-
-login anonymous
-force_install_dir <path>
-app_update 361580 validate
+	• login anonymous
+	• force_install_dir <path>
+	• app_update 361580 validate
 
 #########################
 ### SETTING UP SERVER ###
